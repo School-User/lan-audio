@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #101114; color: #f5f3ed; }
+body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: radial-gradient(circle at 20% 10%, #313522, #101114 55%); }
+.card { width: min(92vw, 620px); margin: 32px 0; padding: 38px; border: 1px solid #3d4138; border-radius: 24px; background: #191b1b; box-shadow: 0 20px 70px #0008; }
+.eyebrow { color: #b9d36b; font-size: 12px; letter-spacing: .18em; font-weight: 700; } h1 { margin: 10px 0 8px; font-size: clamp(42px, 10vw, 76px); line-height: .95; letter-spacing: -.06em; }
+.lede { color: #b8b8af; font-size: 18px; margin-bottom: 30px; } .panel { padding: 22px; margin-top: 18px; border-radius: 16px; background: #232624; border: 1px solid #3c4239; }
+h2 { margin-top: 0; font-size: 20px; } p { line-height: 1.5; color: #c5c6bc; } button { border: 0; border-radius: 10px; background: #c5e36b; color: #13150f; padding: 13px 18px; font-weight: 800; cursor: pointer; }
+button:hover { background: #e0f891; } .qr { width: 220px; height: 220px; padding: 12px; margin: 20px auto 8px; background: white; border-radius: 8px; } .qr img { width: 220px; height: 220px; }
+.pairing, .status { text-align: center; } .status { color: #b9d36b; min-height: 1.5em; } audio { width: 100%; margin-top: 15px; } details { margin-top: 25px; color: #aaa; }
+label { display: block; margin-top: 12px; } input { width: 100%; box-sizing: border-box; margin-top: 5px; padding: 10px; background: #101210; border: 1px solid #454b42; color: white; border-radius: 7px; } [hidden] { display: none !important; }

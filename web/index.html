@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LAN Audio</title><link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body><main class="card">
+  <div class="eyebrow">LOCAL AUDIO LINK</div><h1>LAN Audio</h1>
+  <p class="lede">Send browser audio to another device on the same Wi-Fi.</p>
+  <section id="sourcePanel" class="panel"><h2>1. Start the source</h2>
+    <p>Choose a browser tab, window, or screen. Enable <em>Share audio</em> when prompted.</p>
+    <button id="startButton">Choose audio</button><div id="qr" class="qr" hidden></div>
+    <p id="pairing" class="pairing" hidden>Scan this code on the receiving device.</p>
+  </section>
+  <section id="receiverPanel" class="panel" hidden><h2>2. Connect receiver</h2>
+    <p id="receiverStatus">Waiting for the audio source…</p><button id="connectButton">Connect</button>
+    <audio id="player" controls autoplay></audio>
+  </section>
+  <p id="status" class="status">Ready.</p>
+  <details><summary>Manual pairing</summary><label>Signaling URL <input id="serverInput" placeholder="http://192.168.1.10:8080"></label><label>Room code <input id="roomInput" placeholder="paste room code"></label></details>
+</main><script src="app.js"></script></body></html>
