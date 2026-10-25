@@ -5,7 +5,7 @@ A small local-network audio streamer. Open the source page on the computer that 
 ## Run locally
 
 ```bash
-cd /home/casper/lan-audio
+cd path/to/lan-audio
 python3 server.py
 ```
 

@@ -7,13 +7,13 @@ The first working prototype is complete. It provides a browser-based source page
 ## Project location
 
 ```text
-/home/casper/lan-audio
+path/to/lan-audio
 ```
 
 ## Run locally
 
 ```bash
-cd /home/casper/lan-audio
+cd path/to/lan-audio
 python3 server.py
 ```
 
